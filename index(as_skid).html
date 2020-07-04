@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>Bot Verification</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+	<style>
+	    .recaptcha-center {
+        margin-top: 35px;
+        margin-bottom: 20px;
+        margin-left: 13%;
+        margin-right: 13%;
+        display: block;
+        }
+    </style>
+</head>
+
+<body style="overflow: hidden;">
+    <div class="clearfix" style="margin-bottom: 50px;"></div>
+    <div data-aos="fade-up" data-aos-delay="600" data-aos-once="true">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card card-primary">
+                        <div class="card-body">
+                            <h4 class="card-title"><img src="./assets/img/astolfo_logo_gradient_no_background_64x64.png">&nbsp;Please wait</h4>
+                            <div></div>
+                            <p>Verifying that you are not a robot...</p>
+                            <div>
+								<form id="lsrecaptcha-form" method="POST" action="/.lsrecap/recaptcha?">
+								<div id="recaptchadiv" class="recaptcha-center"></div>
+								</form>
+							</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-aos="fade-up" data-aos-delay="600" data-aos-once="true"></div>
+    <div data-aos="fade-up" data-aos-delay="900" data-aos-once="true"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+    <script src="assets/js/script.min.js"></script>
+</body>
+
+</html>
