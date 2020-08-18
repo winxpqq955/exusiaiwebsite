@@ -71,17 +71,15 @@
 			
 			var vRandomSong = Math.floor(Math.random() * cSongs.length);
 			var vSong = cSongs[vRandomSong];
-			document.getElementById("midintro").innerHTML = '<button onclick="fLoad()" class="astext">开始</button>';
 			var vTimer;
-			function fLoad() 
-			{
+			
 				$.getScript("js/main.min.js");
 				document.getElementById("midintro").style.display = "none";
 				document.getElementById("preloader").style.display = "";
 				document.getElementById("songname").style.display = "none";
 				document.getElementById("songname").innerHTML = "Current Song: " + cSongsName[vRandomSong] + " - " + cSongs[vRandomSong];
 				vTimer = setInterval(fTimer, 1);
-			}
+
 			
 			function fTimer()
 			{
